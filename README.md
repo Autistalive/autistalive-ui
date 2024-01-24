@@ -25,3 +25,10 @@ Este é um esboço inicial para o front!
 <img src="brain-img/4.jpg" alt="Logo Projeto" style="width:600px;"/>
 
 <img src="brain-img/5.jpg" alt="Logo Projeto" style="width:600px;"/>
+
+
+## Obrigado aos contribuidores ❤
+
+<a href = "https://github.com/Autistalive/web/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=Autistalive/autistalive-api"/>
+</a>
