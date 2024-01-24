@@ -30,5 +30,5 @@ Este é um esboço inicial para o front!
 ## Obrigado aos contribuidores ❤
 
 <a href = "https://github.com/Autistalive/web/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo=Autistalive/autistalive-api"/>
+  <img src = "https://contrib.rocks/image?repo=Autistalive/autistalive-ui"/>
 </a>
