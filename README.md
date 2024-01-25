@@ -4,6 +4,38 @@ Com Autista.live, o usuário tem um perfil digital com foto, laudo e identifica�
 
 <img src="https://raw.githubusercontent.com/Autistalive/autistalive-api/main/logo.png" alt="Logo Projeto" style="width:300px;"/>
 
+## Instalação
+### Instalando Back-end
+```bash
+git clone https://github.com/clys-man/autista-live-web.git -b feature/adding-laravel-breeze-api & cd autista-live-web
+
+cp .env.example .env
+
+docker run --rm \
+    -u "$(id -u):$(id -g)" \
+    -v ".:/var/www/html" \
+    -w /var/www/html \
+    laravelsail/php83-composer:latest \
+    composer install --ignore-platform-reqs
+
+./vendor/bin/sail artisan key:generate
+
+./vendor/bin/sail artisan migrate
+```
+
+### Instalando Front-end
+```bash
+git clone https://github.com/clys-man/autistalive-ui.git -b feature/testing-next-breeze
+
+yarn
+
+cp .env.example .env.local
+
+yarn dev
+
+```
+
+
 ## Comunicação
 Temos um grupo para comunicação em tempo real aonde discutimos sobre o projeto no MATRIX.
 Favor participar!
