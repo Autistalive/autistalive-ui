@@ -1,4 +1,6 @@
 # Autista.live
+![GitHub License](https://img.shields.io/github/license/autistalive/autistalive-api)
+
 Autista.live é uma solução de identificação digital desenvolvida para atender uma necessidade da comunidade autista. Este software foi projetado com o objetivo de oferecer uma maneira eficaz e personalizada de fornecer o laudo e uma identificação eletronica na palma da sua mão.
 Com Autista.live, o usuário tem um perfil digital com foto, laudo e identificação digital, incluindo detalhes relevantes e necessidades de acordo com o laudo. 
 
@@ -44,6 +46,10 @@ Favor participar!
 https://matrix.to/#/#autistalive:matrix.org
 ```
 Se você estiver usando Linux, você pode usar os seguintes clientes: [Matrix Clients](https://matrix.org/ecosystem/clients/)
+
+## Projeto Figma
+
+https://www.figma.com/file/Mt6krhHmm91ZmDdXogFNxe/Autista.live?type=design&node-id=0%3A1&mode=design&t=Al4dT2HqrsSPBEnF-1
 
 ## Esboço
 Este é um esboço inicial para o front!
