@@ -33,7 +33,7 @@ const {
   <AuthCard>
     <template #logo>
       <NuxtLink to="/">
-        <ApplicationLogo class="w-20 h-20 fill-current text-gray-500" />
+        <ApplicationLogo class="w-20 h-20 text-gray-500 fill-current" />
       </NuxtLink>
     </template>
 
@@ -47,7 +47,7 @@ const {
         <Input
           id="email"
           type="email"
-          class="block mt-1 w-full"
+          class="block w-full mt-1"
           v-model="data.email"
           :errors="errors.email?.[0]"
           required
@@ -57,11 +57,11 @@ const {
 
       <!-- Password -->
       <div class="mt-4">
-        <Label for="password">Password</Label>
+        <Label for="password">Senha</Label>
         <Input
           id="password"
           type="password"
-          class="block mt-1 w-full"
+          class="block w-full mt-1"
           v-model="data.password"
           :errors="errors.password"
           required
@@ -76,19 +76,19 @@ const {
             id="remember"
             type="checkbox"
             name="remember"
-            class="rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+            class="text-indigo-600 border-gray-300 rounded shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
             v-model="data.remember"
           />
-          <span class="ml-2 text-sm text-gray-600"> Remember me </span>
+          <span class="ml-2 text-sm text-gray-600"> Lembrar-me </span>
         </label>
       </div>
 
       <div class="flex items-center justify-end mt-4">
         <NuxtLink
           href="/forgot-password"
-          class="underline text-sm text-gray-600 hover:text-gray-900"
+          class="text-sm text-gray-600 underline hover:text-gray-900"
         >
-          Forgot your password?
+          Esqueceu sua senha?
         </NuxtLink>
 
         <Button class="ml-3" :disabled="inProgress">Login</Button>
