@@ -29,14 +29,13 @@ const {
   <AuthCard>
     <template #logo>
       <NuxtLink to="/">
-        <ApplicationLogo class="w-20 h-20 fill-current text-gray-500" />
+        <ApplicationLogo class="w-20 h-20 text-gray-500 fill-current" />
       </NuxtLink>
     </template>
 
     <div class="mb-4 text-sm text-gray-600">
-      Forgot your password? No problem. Just let us know your email address and
-      we will email you a password reset link that will allow you to choose a
-      new one.
+      Esqueceu sua senha? Sem problemas. Apenas informe seu endereço de email e
+      enviaremos um link para resetar sua senha e permitir que escolha uma nova.
     </div>
 
     <!-- Session Status -->
@@ -49,7 +48,7 @@ const {
         <Input
           id="email"
           type="email"
-          class="block mt-1 w-full"
+          class="block w-full mt-1"
           v-model="email"
           :errors="errors.email"
           :disabled="resetEmailSent"
@@ -60,7 +59,7 @@ const {
 
       <div class="flex items-center justify-end mt-4">
         <Button class="ml-3" :disabled="inProgress || resetEmailSent">
-          Email Password Reset Link
+          Email para reset da senha
         </Button>
       </div>
     </form>

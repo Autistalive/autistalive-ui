@@ -16,30 +16,28 @@ async function handleResendVerification() {
   <AuthCard>
     <template #logo>
       <NuxtLink to="/">
-        <ApplicationLogo class="w-20 h-20 fill-current text-gray-500" />
+        <ApplicationLogo class="w-20 h-20 text-gray-500 fill-current" />
       </NuxtLink>
     </template>
     <div class="mb-4 text-sm text-gray-600">
-      Thanks for signing up! Before getting started, could you verify your email
-      address by clicking on the link we just emailed to you? If you didn't
-      receive the email, we will gladly send you another.
+      Obrigado por se cadastrar! Antes de começar, confirme seu e-mail clickando
+      no link que acabamos de te enviar. Caso não tenha recebido, podemos enviar novamente.
     </div>
 
     <template v-if="verificationIsSent">
-      <div class="mb-4 font-medium text-sm text-green-600">
-        A new verification link has been sent to the email address you provided
-        during registration.
+      <div class="mb-4 text-sm font-medium text-green-600">
+        Um novo link de verificação foi enviado para o seu endereço de e-mail.
       </div>
     </template>
 
-    <div class="mt-4 flex items-center justify-between">
+    <div class="flex items-center justify-between mt-4">
       <Button @click="handleResendVerification" :disabled="verificationIsSent">
-        Resend Verification Email
+        Re-enviar e-mail de verificação.
       </Button>
 
       <button
         type="button"
-        class="underline text-sm text-gray-600 hover:text-gray-900"
+        class="text-sm text-gray-600 underline hover:text-gray-900"
         @click="logout"
       >
         Logout
