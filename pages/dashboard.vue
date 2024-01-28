@@ -4,6 +4,7 @@ definePageMeta({ middleware: ["auth"] });
 
 <template>
   <NuxtLayout name="app-layout">
+
     <Head>
       <Title>Autista.live - Dashboard</Title>
     </Head>
