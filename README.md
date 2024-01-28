@@ -13,6 +13,9 @@ Com Autista.live, o usuário tem um perfil digital com foto, laudo e identifica�
 :----------:                                                      |  :--------------:
 <img src="./public/screenshot-desktop.png" width="100%"/>         |  <img src="./public/screenshot-mobile.jpg" width="100%"/>
 
+## 🖌️ Projeto no Figma
+https://www.figma.com/file/Mt6krhHmm91ZmDdXogFNxe/Autista.live?type=design&node-id=0%3A1&mode=design&t=jzApLudGPITGskmP-1
+
 ## ⚙️ Funcionalidades
 
 - ✅ Login de usuário
@@ -21,6 +24,7 @@ Com Autista.live, o usuário tem um perfil digital com foto, laudo e identifica�
 - ☑️ Projeto em NUXT.js
 - ✅ Site com acessibilidade
 - ☑️ HTML semântico
+- ✅ Design System
 
 ## 🧰 Bibliotecas
 
@@ -64,7 +68,9 @@ $ npm run dev
   <img width="24" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
   <img width="24" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" height="40" alt="taillwindcss logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" height="40" alt="taillwindcss logo"  />
+  <img width="24" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="taillwindcss logo"  />
   <img width="24" />
 </div>
 
