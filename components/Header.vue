@@ -9,7 +9,7 @@ function toggle() {
 </script>
 
 <template>
-  <header class="inline-flex items-center w-auto p-2 gap-[77px]">
+  <header class="inline-flex text-dark-primary items-center w-auto p-2 gap-[77px]">
     <NuxtLink href="/" class="flex flex-col items-center justify-center">
       <img class="h-[60px] w-[60px]" src="/logo-autistalive.png" alt="Logo Autista Live">
       <h1 class="flex-none text-[16px] font-bold">Autista live</h1>
