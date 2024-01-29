@@ -9,18 +9,38 @@ function toggle() {
 </script>
 
 <template>
-  <header class="flex w-auto justify-between items-center p-2">
-    <img class="flex-none" src="/logo-autistalive.png" alt="Logo Autista Live">
-    <div class="flex-initial flex gap-3 items-center font-semibold">
+  <header class="inline-flex items-center w-auto p-2 gap-[77px]">
+    <NuxtLink href="/" class="flex flex-col items-center justify-center">
+      <img class="h-[60px] w-[60px]" src="/logo-autistalive.png" alt="Logo Autista Live">
+      <h1 class="flex-none text-[16px] font-bold">Autista live</h1>
+    </NuxtLink>
+
+    <div class="flex items-center flex-initial gap-2 font-semibold">
       <PhPersonArmsSpread />
       Acessibilidade
     </div>
-    <ButtonIcon @click="isOpened = !isOpened">
-      <PhList :size="20" />
-    </ButtonIcon>
-  </header>
 
-  <div class="w-auto h-auto">
-    a
-  </div>
+    <nav class="inline-flex items-center gap-6">
+      <NuxtLink href="/">Início</NuxtLink>
+      <NuxtLink href="/#sobre">Sobre o Projeto</NuxtLink>
+      <NuxtLink href="/#contato">Contato</NuxtLink>
+      <ButtonOutline href="/register">
+        Criar Conta
+      </ButtonOutline>
+      <Button href="/login">
+        Entrar
+      </Button>
+    </nav>
+
+  </header>
 </template>
+
+<style>
+header {
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+</style>

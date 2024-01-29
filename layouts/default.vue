@@ -1,7 +1,8 @@
 <template>
   <div>
+
     <Head>
-      <Title>Laravel</Title>
+      <Title>Autista live</Title>
     </Head>
 
     <slot />
