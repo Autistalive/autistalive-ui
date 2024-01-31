@@ -12,5 +12,6 @@ const { isLoggedIn } = useAuth();
     <HeroSection />
     <AboutProjectSection />
     <MissionSection />
+    <ContactForm />
   </NuxtLayout>
 </template>
