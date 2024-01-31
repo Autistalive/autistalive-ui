@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-20 w-full bg-[url('/banner-homepage.png')] bg-cover bg-left flex justify-center">
+  <section class="mt-20 w-full bg-[url('/banner-homepage.png')] bg-cover bg-top md:bg-left flex justify-center">
     <div class="inline-grid gap-8 max-w-4xl py-20 px-4 md:p-20 md:pl-52 self-end">
       <div class="grid gap-2">
         <h1 class="text-5xl">Os Direitos do Autista</h1>

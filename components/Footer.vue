@@ -1,5 +1,5 @@
 <template>
-  <footer class="grid justify-items-center bg-light-secondary py-20">
+  <footer class="grid justify-items-center bg-light-secondary px-4 py-20">
     <div class="grid gap-6 max-w-lg">
       <div class="grid justify-items-center">
         <img src="/logo-autistalive.png" alt="Logo do autista live" class="w-32 h-32">
