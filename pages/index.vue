@@ -8,5 +8,9 @@ const { isLoggedIn } = useAuth();
     <Head>
       <Title>Autista live</Title>
     </Head>
+
+    <HeroSection />
+    <AboutProjectSection />
+    <MissionSection />
   </NuxtLayout>
 </template>
