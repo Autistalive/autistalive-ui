@@ -1,6 +1,6 @@
 <template>
-  <section class="max-w-screen-xl flex items-start justify-around overflow-hidden">
-    <img src="/puzzle-background.png" alt="Imagem de quebra-cabeça" class="-translate-x-6" />
+  <section class="max-w-screen-xl flex items-start justify-around self-center overflow-hidden">
+    <img src="/puzzle-background.png" alt="Imagem de quebra-cabeça"/>
     <div class="grid gap-8">
       <div class="grid gap-2">
         <h1 class="text-5xl text-dark-secondary leading-normal">O Projeto Autista Live</h1>
@@ -29,7 +29,7 @@
         </li>
       </ul>
     </div>
-    <img src="/puzzle-background2.png" alt="Imagem de quebra-cabeça" class="translate-x-6 translate-y-16" />
+    <img src="/puzzle-background2.png" alt="Imagem de quebra-cabeça" class="translate-y-16" />
   </section>
 </template>
 
