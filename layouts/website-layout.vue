@@ -1,9 +1,9 @@
 <template>
-    <Body class="flex justify-center w-full py-8">
+    <Body class="py-8">
         <Header>
         </Header>
-        <div>
-            <slot />
+        <div class="grid justify-items-center">
+          <slot />
         </div>
     </Body>
 </template>
