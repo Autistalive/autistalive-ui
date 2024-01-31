@@ -1,19 +1,19 @@
 <template>
-  <section class="max-w-screen-xl flex items-start justify-around self-center overflow-hidden">
-    <img src="/puzzle-background.png" alt="Imagem de quebra-cabeça"/>
+  <section class="max-w-screen-xl flex items-start justify-around self-center overflow-hidden m-4 md:p-0">
+    <img src="/puzzle-background.png" alt="Imagem de quebra-cabeça" class="hidden md:block"/>
     <div class="grid gap-8">
       <div class="grid gap-2">
-        <h1 class="text-5xl text-dark-secondary leading-normal">O Projeto Autista Live</h1>
-        <p class="text-2xl leading-tight">O Autista Live é uma iniciativa dedicada a oferecer uma solução inclusiva e
+        <h1 class="text-3xl md:text-5xl text-dark-secondary leading-normal">O Projeto Autista Live</h1>
+        <p class="md:text-2xl leading-tight">O Autista Live é uma iniciativa dedicada a oferecer uma solução inclusiva e
           acessível para
           pessoas com autismo.</p>
-        <p class="text-2xl leading-tight">Nosso projeto visa fornecer uma plataforma onde indivíduos autistas possam obter
+        <p class="md:text-2xl leading-tight">Nosso projeto visa fornecer uma plataforma onde indivíduos autistas possam obter
           uma carteirinha
           digital que comprove seu diagnóstico, oferecendo uma maneira fácil e confiável de demonstrar sua condição em
           diversas situações cotidianas.</p>
       </div>
       <div class="grid gap-2">
-        <h2 class="text-3xl text-dark-secondary leading-normal">Quem faz o Autista Live</h2>
+        <h2 class="text-2xl md:text-3xl text-dark-secondary leading-normal">Quem faz o Autista Live</h2>
         <p class="leading-tight">O Autista Live é construído por uma equipe apaixonada e comprometida com a causa da
           inclusão e do apoio às
           pessoas com autismo.</p>
@@ -29,7 +29,7 @@
         </li>
       </ul>
     </div>
-    <img src="/puzzle-background2.png" alt="Imagem de quebra-cabeça" class="translate-y-16" />
+    <img src="/puzzle-background2.png" alt="Imagem de quebra-cabeça" class="translate-y-16 hidden md:block" />
   </section>
 </template>
 
