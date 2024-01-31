@@ -18,20 +18,20 @@ defineProps<Props>();
     <img class="w-24 h-24 rounded-full font-semibold object-cover border-4 border-accent-primary"
     :src="imageURI" :alt="`Foto de ${personName}`">
     <div class="grid text-center gap-4 w-[100%]">
-      <p class="text-2xl">{{ personName }}</p>
+      <p class="text-2xl whitespace-nowrap">{{ personName }}</p>
       <div class="flex gap-2 justify-center">
         <span v-for="(item, index) in personRoles" class="text-sm">
           {{ item }}
         </span>
       </div>
       <div class="flex justify-between">
-        <ButtonIcon class="w-10 h-10" :href="linkedin">
+        <ButtonIcon class="w-10 h-10" :href="linkedin ?? '#'">
           <PhLinkedinLogo :size="24" />
         </ButtonIcon>
-        <ButtonIcon class="w-10 h-10" :href="github">
+        <ButtonIcon class="w-10 h-10" :href="github ?? '#'">
           <PhGithubLogo :size="24" />
         </ButtonIcon>
-        <ButtonIcon class="w-10 h-10" :href="`mailto:${email}`">
+        <ButtonIcon class="w-10 h-10" :href="email ?? '#'">
           <PhEnvelopeOpen :size="24" />
         </ButtonIcon>
       </div>
