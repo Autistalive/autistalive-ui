@@ -34,15 +34,6 @@ https://www.figma.com/file/Mt6krhHmm91ZmDdXogFNxe/Autista.live?type=design&node-
 
 ## ⬇️ Rodando o projeto
 
-| **Obs: 
-
-```bash
-$ npm install
-$ cp .env.example .env
-$ npm run dev
-```
-
-
 #### 1. Para a aplicação funcionar corretamente é necessário a instalação do [Backend](https://github.com/Autistalive/autistalive-api/#instala%C3%A7%C3%A3o)
 
 2. Após clonar este repositório abra o terminal e insira os comandos abaixo
