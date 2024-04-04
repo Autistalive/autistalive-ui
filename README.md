@@ -11,7 +11,7 @@ Com Autista.live, o usuário tem um perfil digital com foto, laudo e identifica�
 
  🖥️ Versão web                                                     |  📱 Versão Mobile
 :----------:                                                      |  :--------------:
-<img src="./public/screenshot-desktop.png" width="100%"/>         |  <img src="./public/screenshot-mobile.jpg" width="100%"/>
+<img src="./public/screenshot-desktop.png" width="100%"/>         |  <img src="./public/screenshot-mobile.png" width="100%"/>
 
 ## 🖌️ Projeto no Figma
 https://www.figma.com/file/Mt6krhHmm91ZmDdXogFNxe/Autista.live?type=design&node-id=0%3A1&mode=design&t=jzApLudGPITGskmP-1
