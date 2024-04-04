@@ -1,8 +1,13 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import VLibras from "vlibras-nuxt3";
+</script>
 
 <template>
   <Head>
-    <Link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" />
+    <Link
+      href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
   </Head>
 
   <Body class="antialiased">
@@ -10,12 +15,13 @@
       <NuxtPage />
     </NuxtLayout>
   </Body>
+  <VLibras />
 </template>
 
 <style>
 /* INFO(roberto): Make scrollbar prettier on chrome */
 :root {
-  --color-accent-primary: #1818B4;
+  --color-accent-primary: #1818b4;
   --color-accent-secondary: #131390;
 }
 
